@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rating"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".RatingActivity">
+
+    <RatingBar
+        android:id="@+id/rabApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:numStars="5"
+        android:stepSize="1" />
+
+    <TextView
+        android:id="@+id/tvRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rabApp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_marginTop="48dp"
+        android:text="" />
+
+    <Button
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvRating"
+        android:layout_alignLeft="@+id/rabApp"
+        android:layout_alignStart="@+id/rabApp"
+        android:layout_marginTop="76dp"
+        android:id="@+id/btnSubmit" />
+
+    <Button
+        android:text="Share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnSubmit"
+        android:layout_alignRight="@+id/rabApp"
+        android:layout_alignEnd="@+id/rabApp"
+        android:id="@+id/btnShare" />
+
+</RelativeLayout>

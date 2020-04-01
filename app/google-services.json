@@ -1,0 +1,117 @@
+{
+  "project_info": {
+    "project_number": "502632586273",
+    "firebase_url": "https://patientapp-68388.firebaseio.com",
+    "project_id": "patientapp-68388",
+    "storage_bucket": "patientapp-68388.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502632586273:android:be2ffa62324a9310",
+        "android_client_info": {
+          "package_name": "com.ind.sihc.pdapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502632586273-dtboe9i9iubnsj2n45v9qj3i83v5ra78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMT-278uXm6XvDU039mx8GYvYcXTmD6Mg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502632586273:android:a338a9390b616428",
+        "android_client_info": {
+          "package_name": "com.ind.sihd.doctorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502632586273-2ggagnafbjjpunl6lcr5cclei2ce6hks.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ind.sihd.doctorapp",
+            "certificate_hash": "9c20616486b3ef7075c14442a8ae5f9104d5d407"
+          }
+        },
+        {
+          "client_id": "502632586273-dtboe9i9iubnsj2n45v9qj3i83v5ra78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMT-278uXm6XvDU039mx8GYvYcXTmD6Mg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "502632586273-dtboe9i9iubnsj2n45v9qj3i83v5ra78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502632586273:android:e3647280460daeaf",
+        "android_client_info": {
+          "package_name": "com.ind.sihp.patientapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502632586273-dtboe9i9iubnsj2n45v9qj3i83v5ra78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMT-278uXm6XvDU039mx8GYvYcXTmD6Mg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

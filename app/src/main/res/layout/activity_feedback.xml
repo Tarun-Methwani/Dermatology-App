@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedbackActivity">
+
+
+    <TextView
+        android:id="@+id/feedBack"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center_horizontal"
+        android:text="Get In Touch With Us"
+        android:textColor="@color/blue"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etpatientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Patient Name"
+        android:inputType="textPersonName" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:numStars="5"
+        android:rating="0" />
+
+
+    <EditText
+        android:id="@+id/anySuggestions"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Any Suggestions.."
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:text="Submit" />
+
+</LinearLayout>

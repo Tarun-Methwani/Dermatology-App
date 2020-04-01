@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".NoturgentActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tvDiseasenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="16dp"
+        android:text="Common Problems" />
+
+
+
+</LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvSymp1"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorAccent"
+                android:text="Solution for red and white bumps"
+                android:layout_marginBottom="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvSymp2"
+
+                android:layout_marginBottom="20dp"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorAccent"
+                android:text="Solution for itchy painful skin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvSymp3"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorAccent"
+                android:text="Solution for scaly rough skin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvSymp4"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorAccent"
+                android:text="Solution for peeling skin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvSymp5"
+                android:textSize="20sp"
+                android:text="Dry Cracked Skin"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorAccent"
+                android:layout_marginBottom="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvSymp6"
+
+                android:layout_marginBottom="20dp"
+                android:textSize="20sp"
+                android:text="Discoloured Patch"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorAccent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvSymp7"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:text="Ulcers"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorAccent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tvSymp8"
+                android:textSize="20sp"
+                android:text="open sores or lesions"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorAccent"
+                android:layout_marginBottom="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tvSymp9"
+                android:textSize="20sp"
+                android:text="solution for Skin Growth"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorAccent"
+                android:layout_marginBottom="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tvSymp10"
+                android:textSize="20sp"
+                android:text=""
+                android:layout_marginBottom="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tvSymp11"
+                android:textSize="20sp"
+                android:text=""
+                android:layout_marginBottom="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tvSymp12"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PD</string>
+    <string-array name="blood_group">
+        <item>Enter Blood Group</item>
+        <item>A+ve</item>
+        <item>A-ve</item>
+        <item>O+ve</item>
+        <item>O-ve</item>
+        <item>B+ve</item>
+        <item>B-ve</item>
+        <item>AB+ve</item>
+        <item>AB-ve</item>
+    </string-array>
+    <string name="title_activity_pharmacy">Map</string>
+    <string name="title_activity_pharamcy_p">Map</string>
+
+    <string name="next">I Agree</string>
+    <string name="start">I Agree</string>
+</resources>
